@@ -14,11 +14,11 @@ pipeline_quant_config = PipelineQuantizationConfig(
 pipe = FluxKontextPipeline.from_pretrained("black-forest-labs/FLUX.1-Kontext-dev", quantization_config=pipeline_quant_config,torch_dtype=torch.bfloat16)
 pipe.to("cuda")
 
-input_image = load_image("generations/medium_capybara.png")
+input_image = load_image("inputs/myself.jpg")
 
 image = pipe(
   image=input_image,
-  prompt="Add a hat to the rat",
+  prompt="Change the suite color to blue. Also make it look more classy.",
   guidance_scale=2.5
 ).images[0]
-image.save("generations/flux_8bit_change_capybara.png")
+image.save("generations/flux_8bit_change_suite_color.png")
