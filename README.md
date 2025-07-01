@@ -3,8 +3,8 @@
 Trying out stable diffusion for text to image and virtual try on (VTON)
 
 ## Conclusion:
-- Use IDM-VTON for **clothing try on,** if i draw a mask this works very well and is actually a nice usecase.
-- For the rest it would need more time investment aka just use services for that (eg finding new styles). Also I think its unnecessary, because also if I find cool things they might not exist in the real world xD Or look much worse since models optimize the shape etc for it to look better. 
+- Use IDM-VTON for **clothing try on,** if I draw a mask this works very well and is actually a **nice usecase**.
+- For the rest it would **need more time investment** aka just use services for that (eg finding new styles). Also I think its **unnecessary**, because also if I find cool things they might not exist in the real world xD Or look much worse since models optimize the shape etc for it to look better. 
 
 ## Current Tools / Frameworks
 
