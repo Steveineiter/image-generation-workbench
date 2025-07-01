@@ -13,7 +13,7 @@ Trying out stable diffusion for text to image and virtual try on (VTON)
 
 - Pretty much replaced stable diffusion UI for advanced image generation.
 - I guess this is better as an end-user and if I want to do more advanced stuff.
-- https://www.youtube.com/watch?v=pjW9KfZ1VY4 nice source / worklows.
+- https://www.youtube.com/watch?v=pjW9KfZ1VY4 nice source / worklows. I think IDM-VTON worked as well tho xD
 
 ## Steps:
 
